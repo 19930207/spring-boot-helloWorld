@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//mnt/d/workspace/**)",
+      "Bash(javac src/main/java/com/neo/util/BubbleSort.java -d target/classes)",
+      "Bash(java -cp target/classes com.neo.util.BubbleSort)"
+    ]
+  }
+}
